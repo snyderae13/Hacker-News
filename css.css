@@ -1,0 +1,117 @@
+main  {
+    border: 1px solid fcf8f4f6;
+    margin: auto;
+    width: 90%;
+    background-color: #f6f6ef;
+}
+
+
+nav.top-nav {
+    background-color: rgb(255, 123, 0);
+    display : flex;
+    margin:0;
+    padding: 3px 0;
+    
+}
+
+nav > * {
+    padding: 0 2px;
+}
+
+.login{
+    text-align:right;
+    margin-left:220px;
+}
+
+h1 {
+    font-size: 1em;
+    margin:0px;
+    
+
+}
+
+
+ a {
+     text-decoration: none;
+     color:black;
+ }
+
+ .link-details {
+     display: flex;
+     flex : 1 0 33%;
+     flex-wrap: wrap;
+     padding : 5px 3px;
+     font-size: .60em;
+     color: grey;
+     
+ }
+
+ .hide{
+     color: grey;
+     padding: 0 3px;
+ }
+
+ .hide:hover{
+     text-decoration: underline;
+ }
+
+ .comments{
+     color:grey;
+     padding: 0 3px;
+ }
+
+ .comments:hover{
+     text-decoration: underline;
+ }
+
+ .points{
+     padding: 0px 3px;
+ }
+
+ .author:hover{
+     text-decoration: underline;
+ }
+
+ .time-since-post{
+     padding: 0 2px;
+ }
+
+ .time-since-post:hover{
+     text-decoration: underline;
+ }
+
+ .article{
+     padding: 0 2px;
+ }
+
+ .source{
+     color: grey;
+     font-size: .85em;
+ }
+
+ .source:hover{
+     text-decoration: underline;
+ }
+
+.more{
+    margin: 50px;
+}
+
+hr.orange-line{
+    border:rgb(255, 123, 0) solid;
+    border-width:thin;
+}
+
+.footer-nav{
+    text-align:center;
+    font-size: .80em;
+}
+
+.form{
+    color:grey;
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+
+
